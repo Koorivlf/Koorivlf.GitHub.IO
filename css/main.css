@@ -68,8 +68,7 @@ ul.posts li {
 .movingaroundyes {
   width: 100px;
   height: 100px;
-  background-color: red;
-  animation-name: example;
+  animation-name: movearound;
   animation-duration: 4s;
 }
 
