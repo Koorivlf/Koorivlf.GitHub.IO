@@ -15,7 +15,7 @@
 	/*margin-left: auto;
   	margin-right: auto;*/
 	/*float: center;*/
-        margin:auto;
+        /*margin:auto;*/
   	/*width: 10%;*/
 	top: 50%;
 }
@@ -47,6 +47,11 @@ body {
     	family-font: var(--basicFamilyfont);
 	width: 50%;
 	margin:auto;
+}
+
+img {
+    margin: auto;
+    width: 50%;
 }
 
 footer ul {
