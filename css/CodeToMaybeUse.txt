@@ -1,0 +1,129 @@
+/*
+nav ul, footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+}
+nav ul li, footer ul li {
+    display: inline;
+    margin-right: 20px; 
+}
+
+img {
+    margin: auto;
+    width: 50%;
+    border: 3px solid red;
+    padding: 10px;
+}
+
+img:hover {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--textColor);
+}
+a:hover {
+     text-decoration: underline; 
+}
+h1 {
+    color: var(--textColor);
+    font-size: 3em;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+p {
+     font-size: 1.5em;
+    line-height: 1.4em; 
+    color: var(--textColor);
+}
+footer {
+    border-top: 1px solid #d5d5d5;
+    font-size: .8em; 
+}
+
+ul.posts { 
+    margin: 20px auto 40px; 
+    font-size: 1.5em; 
+}
+
+ul.posts li {
+     list-style: none; 
+}
+
+.console-text {
+ 
+}
+
+.movingaroundyes {
+  width: 100px;
+  height: 100px;
+  animation-name: movearound;
+  animation-duration: 4s;
+}
+
+@keyframes movearound {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+
+/*
+@keyframes example {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+body { font: 400 1em/1.5 "Neuton"; background: #090d00; color: rgba(255,255,255,.25); text-align: center; margin: 0 }
+
+p {
+	text-transform: uppercase;
+	letter-spacing: .5em;
+	display: inline-block;
+	border: 4px double rgba(255,255,255,.25);
+	border-width: 4px 0;
+	padding: 1.5em 0em;
+	position: absolute;
+	top: 18%;
+	left: 50%;
+	width: 40em;
+	margin: 0 0 0 -20em;
+  
+  span {
+
+  	font: 700 4em/1 "Oswald", sans-serif;
+  	letter-spacing: 0;
+  	padding: .25em 0 .325em;
+	  display: block;
+	  margin: 0 auto;
+  	text-shadow: 0 0 80px rgba(255,255,255,.5);
+
+/* Clip Background Image
+
+	  background: url(http://f.cl.ly/items/010q3E1u3p2Q0j1L1S1o/animated_text_fill.png) repeat-y;
+	  -webkit-background-clip: text;
+	  background-clip: text;
+
+/* Animate Background Image
+
+	  -webkit-text-fill-color: transparent;
+	  -webkit-animation: aitf 80s linear infinite;
+
+/* Activate hardware acceleration for smoother animations
+
+	  -webkit-transform: translate3d(0,0,0);
+	  -webkit-backface-visibility: hidden;
+
+  }
+}
+
+/* Animate Background Image
+
+@-webkit-keyframes aitf {
+	0% { background-position: 0% 50%; }
+	100% { background-position: 100% 50%; }
+}
+*/
