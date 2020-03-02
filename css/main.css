@@ -15,8 +15,8 @@
   	margin-right: auto;*/
 	/*float: center;*/
         margin:auto;
-  	width: 10%;
-	top: 20%;
+  	/*width: 10%;*/
+	top: 50%;
 }
 
 .clickIconList {
@@ -28,7 +28,7 @@
 	 max-width:16em;
 	height: auto;
 	width: auto;
-	 vertical-align: middle;
+	 /*vertical-align: middle;*/
  	 border:4em solid var(--bgColor);
 }
 
