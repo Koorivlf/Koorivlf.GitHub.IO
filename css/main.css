@@ -21,11 +21,13 @@
 
 .clickIconList {
  	 display: inline-block;
-	 float: left;
+	 float: center;
  	 /*width: 33.33%;*/
  	 /*padding: 25%*/
 	 max-height:16em;
 	 max-width:16em;
+	height: auto;
+	width: auto;
 	 vertical-align: middle;
  	 border:4em solid var(--bgColor);
 }
