@@ -42,7 +42,7 @@ p {
 	line-height: 2em;
 	/*padding-left: var(--thepaddingspace-500);*/
 	color: var(--koorTextColor);
-	text-shadow: .02em .02em var(--shadowColor);
+	text-shadow: .2em .2em var(--shadowColor);
 	font-size: .8em;
 	position: relative;
    	font-family: var(--basicFamilyfont);
