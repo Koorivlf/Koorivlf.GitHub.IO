@@ -1,13 +1,16 @@
 :root{
-	--bgColor: white;
+	--bgColor: #ffa500;
     	--textColor: black;
-	--borderColor: green;
+	--borderColor: #a82400;
 	--basicFamilyfont:"Lucida Sans Unicode", "Lucida Grande", 'sans-serif';
+	--thepaddingspace: 5%;
+    --koorTextColor: #fcf9eb;
 
 }
 
 .centerblock {
       margin: 0 auto;
+	  padding-left:10%;
 }
 
 .centerImg {
@@ -17,19 +20,31 @@
 	/*float: center;*/
         /*margin:auto;*/
   	/*width: 10%;*/
-	padding-top: 16em;
+	padding-top: 6em;
+	padding-left: var(--thepaddingspace);
+}
+
+.koorText {
+	letter-spacing: 1.5em;
+	line-height: 4em;
+	padding-left: var(--thepaddingspace-500);
+	color: var(--koorTextColor);
+	text-shadow: .08em .08em var(--borderColor);
+	font-size: 2.69em;
+
+	
 }
 
 .clickIconList {
- 	 display: inline-block;
+ 	display: inline-block;
  	 /*width: 33.33%;*/
  	 /*padding: 25%*/
-	 max-height:16em;
-	 max-width:16em;
-	padding-right: 2%;
-	padding-left: 2%
+	max-height:16em;
+	max-width:16em;
+	padding-right: 1.5*%;
+	padding-left: 1.5*%
 	 /*vertical-align: middle;*/
- 	 border:4em solid var(--bgColor);
+ 	 border:4em solid var(--borderColor);
 }
 
 a.hover {
@@ -39,10 +54,10 @@ a.hover {
 
 body {
 	/*margin: 500em;*/
-    	/*width: 90%;*/
-    	background-color: var(--bgColor);
-    	family-font: var(--basicFamilyfont);
-	width: 50%;
+    /*width: 90%;*/
+    background-color: var(--bgColor);
+    family-font: var(--basicFamilyfont);
+	width: 80%;
 	/*margin:auto;*/
 	margin-left: 25%;
 	margin-right: 25%
