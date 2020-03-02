@@ -4,10 +4,11 @@
 }
 
 .centerImg {
-    	display:inline-block;
+    	display:block;
 	/*margin-left: auto;
   	margin-right: auto;*/
-	float: center;
+	/*float: center;*/
+        margin:auto;
   	width: 3%;	
 }
 
