@@ -4,16 +4,15 @@
 	--borderColor: #fcf9eb;
 	--basicFamilyfont:"Lucida Sans Unicode", "Lucida Grande", 'sans-serif';
 	--thepaddingspace: 10%;
-    --koorTextColor: #fcf9eb;
+    	--koorTextColor: #fcf9eb;
 	--shadowColor: #a82400;
 	--textBorderMargin: .69em;
-
 }
 
 .centerblock {
-      position: relative;
-	  margin: 0 auto;
-	  	padding-left:var(--thepaddingspace);
+	position: relative;
+	margin: 0 auto;
+	padding-left:var(--thepaddingspace);
 }
 
 .centerImg {
@@ -34,25 +33,22 @@
 	color: var(--koorTextColor);
 	text-shadow: .08em .08em var(--shadowColor);
 	font-size: 2.69em;
-	 position: relative;
-    font-family: var(--basicFamilyfont);
-
-	
+	position: relative;
+   	font-family: var(--basicFamilyfont);	
 }
 
 .clickIconList {
-	
- 	display: inline-block;
- 	 /*width: 33.33%;*/
- 	 /*padding: 25%*/
+	display: inline-block;
+ 	/*width: 33.33%;*/
+ 	/*padding: 25%*/
 	max-height:16em;
 	max-width:16em;
 	margin-right: var(--textBorderMargin); 
 	margin-bottom: var(--textBorderMargin); 
 	margin-left: var(--textBorderMargin); 
 	border-radius: .5em;
-	 /*vertical-align: middle;*/
- 	 border:.2em solid var(--borderColor);
+	/*vertical-align: middle;*/
+ 	border:.2em solid var(--borderColor);
 }
 
 a.hover {
@@ -62,9 +58,9 @@ a.hover {
 
 body {
 	/*margin: 500em;*/
-    /*width: 90%;*/
-    background-color: var(--bgColor);
-    font-family: var(--basicFamilyfont);
+    	/*width: 90%;*/
+    	background-color: var(--bgColor);
+    	font-family: var(--basicFamilyfont);
 	width: 80%;
 	/*margin:auto;*/
 	margin-left: 25%;
@@ -72,15 +68,15 @@ body {
 }
 
 img {
-    /* makes images shrink and grow
-    margin: auto;
-    width: 50%;*/
+    	/* makes images shrink and grow
+    	margin: auto;
+    	width: 50%;*/
 }
 
- /* unvisited link */
-a:link {
-  color: red;
-  text-decoration: italic;
+ 	/* unvisited link */
+	a:link {
+	color: red;
+	text-decoration: italic;
 }
 
 /* visited link */
@@ -90,27 +86,29 @@ a:visited {
 }
 
 /* mouse over link */
-a:hover {
-  color: var(--shadowColor);
-   text-decoration: bold;
+	a:hover {
+	color: var(--shadowColor);
+	text-decoration: bold;
 }
 
 /* selected link */
 a:active {
-  color: var(--bgColor);
-  text-decoration: border-bottom;
+	color: var(--bgColor);
+  	text-decoration: border-bottom;
 } 
+
+
 footer ul {
-    font-family:var(--basicFamilyfont);
+	font-family:var(--basicFamilyfont);
 	margin-top: 2em;
-    padding-left: var(--thepaddingspace);
-    list-style: none;
-    font-weight: bold;
+	padding-left: var(--thepaddingspace);
+	list-style: none;
+	font-weight: bold;
 	color: var(--koorTextColor);
 	text-shadow: .08em .08em var(--shadowColor);
 }
 
 footer ul li {
-    display: inline;
-    margin-right: .5%;
+	display: inline;
+	margin-right: .5%;
 }
