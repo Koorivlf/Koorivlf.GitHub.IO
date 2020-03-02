@@ -1,16 +1,19 @@
 :root{
 	--bgColor: #ffa500;
     	--textColor: black;
-	--borderColor: #a82400;
+	--borderColor: #fcf9eb;
 	--basicFamilyfont:"Lucida Sans Unicode", "Lucida Grande", 'sans-serif';
-	--thepaddingspace: 5%;
+	--thepaddingspace: 10%;
     --koorTextColor: #fcf9eb;
+	--shadowColor: #a82400;
+	--textBorderMargin: .69em;
 
 }
 
 .centerblock {
-      margin: 0 auto;
-	  padding-left:10%;
+      position: relative;
+	  margin: 0 auto;
+	  	padding-left:var(--thepaddingspace);
 }
 
 .centerImg {
@@ -27,24 +30,29 @@
 .koorText {
 	letter-spacing: 1.5em;
 	line-height: 4em;
-	padding-left: var(--thepaddingspace-500);
+	/*padding-left: var(--thepaddingspace-500);*/
 	color: var(--koorTextColor);
-	text-shadow: .08em .08em var(--borderColor);
+	text-shadow: .08em .08em var(--shadowColor);
 	font-size: 2.69em;
+	 position: relative;
+    font-family: var(--basicFamilyfont);
 
 	
 }
 
 .clickIconList {
+	
  	display: inline-block;
  	 /*width: 33.33%;*/
  	 /*padding: 25%*/
 	max-height:16em;
 	max-width:16em;
-	padding-right: 1.5*%;
-	padding-left: 1.5*%
+	margin-right: var(--textBorderMargin); 
+	margin-bottom: var(--textBorderMargin); 
+	margin-left: var(--textBorderMargin); 
+	border-radius: .5em;
 	 /*vertical-align: middle;*/
- 	 border:4em solid var(--borderColor);
+ 	 border:.2em solid var(--borderColor);
 }
 
 a.hover {
@@ -56,7 +64,7 @@ body {
 	/*margin: 500em;*/
     /*width: 90%;*/
     background-color: var(--bgColor);
-    family-font: var(--basicFamilyfont);
+    font-family: var(--basicFamilyfont);
 	width: 80%;
 	/*margin:auto;*/
 	margin-left: 25%;
@@ -69,14 +77,40 @@ img {
     width: 50%;*/
 }
 
+ /* unvisited link */
+a:link {
+  color: red;
+  text-decoration: italic;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+  text-decoration: italic;
+}
+
+/* mouse over link */
+a:hover {
+  color: var(--shadowColor);
+   text-decoration: bold;
+}
+
+/* selected link */
+a:active {
+  color: var(--bgColor);
+  text-decoration: border-bottom;
+} 
 footer ul {
     font-family:var(--basicFamilyfont);
-    padding: 2%;
+	margin-top: 2em;
+    padding-left: var(--thepaddingspace);
     list-style: none;
     font-weight: bold;
+	color: var(--koorTextColor);
+	text-shadow: .08em .08em var(--shadowColor);
 }
 
 footer ul li {
     display: inline;
-    margin-right: .5%; 
+    margin-right: .5%;
 }
