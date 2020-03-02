@@ -1,12 +1,26 @@
 :root{
-    --bgColor: white;
-    --textColor: black;
+	--bgColor: white;
+    	--textColor: black;
 }
 
+.centerImg {
+    	display:inline-block;
+}
+
+.clickIconList {
+ 	 display: inline-block;
+ 	 /*float: left;*/
+ 	 width: 33.33%;
+ 	 padding: 50%;
+	 font-size: 20px;
+}
+
+
 body {
-   /* margin: 60px auto;
-    width: 70%;*/
-    background-color: var(--bgColor);
+	/* margin: 60px auto;
+    	width: 70%;*/
+    	background-color: var(--bgColor);
+    	family-font: "Lucida Sans Unicode", "Lucida Grande", 'sans-serif';
 }
 nav ul, footer ul {
     /* font-family:'Helvetica', 'Arial', 'Sans-Serif';
