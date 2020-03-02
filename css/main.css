@@ -1,6 +1,8 @@
 :root{
 	--bgColor: white;
     	--textColor: black;
+	--borderColor: green;
+
 }
 
 .centerImg {
@@ -14,13 +16,18 @@
 
 .clickIconList {
  	 display: inline-block;
- 	 float: center;
+ 	margin: auto; 
+	float: center;
  	 /*width: 33.33%;*/
  	 /*padding: 25%*/
-	 font-size: 100%;
 	 max-height:32em;
 	 max-width:32em;
 	 vertical-align: middle;
+ 	 border:4em solid var(--bgColor);
+}
+
+a.hover {
+
 }
 
 
@@ -29,4 +36,5 @@ body {
     	/*width: 90%;*/
     	background-color: var(--bgColor);
     	family-font: "Lucida Sans Unicode", "Lucida Grande", 'sans-serif';
+	width: 50%;
 }
