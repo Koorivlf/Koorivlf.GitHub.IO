@@ -2,6 +2,7 @@
 	--bgColor: white;
     	--textColor: black;
 	--borderColor: green;
+	--basicFamilyfont:"Lucida Sans Unicode", "Lucida Grande", 'sans-serif';
 
 }
 
@@ -43,7 +44,14 @@ body {
 	/*margin: 500em;*/
     	/*width: 90%;*/
     	background-color: var(--bgColor);
-    	family-font: "Lucida Sans Unicode", "Lucida Grande", 'sans-serif';
+    	family-font: var(--basicFamilyfont);
 	width: 50%;
 	margin:auto;
+}
+
+footer ul {
+    font-family:var(--basicFamilyfont);
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
 }
