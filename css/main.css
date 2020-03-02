@@ -12,8 +12,8 @@
 
 #clickIconList {
  	 display: inline-block;
- 	 /*float: left;*/
- 	 width: 33.33%;
+ 	 float: center;
+ 	 /*width: 33.33%;*/
  	 padding: 50%;
 	 font-size: 100%;
 }
