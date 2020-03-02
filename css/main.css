@@ -5,8 +5,8 @@
 
 .centerImg {
     	display:inline-block;
-	margin-left: auto;
-  	margin-right: auto;
+	/*margin-left: auto;
+  	margin-right: auto;*/
 	float: center;
   	width: 3%;	
 }
