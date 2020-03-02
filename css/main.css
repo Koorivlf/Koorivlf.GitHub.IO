@@ -42,13 +42,14 @@ body {
     	/*width: 90%;*/
     	background-color: var(--bgColor);
     	family-font: var(--basicFamilyfont);
-	width: 50%;
+	width: 40%;
 	margin:auto;
 }
 
 img {
+    /* makes images shrink and grow
     margin: auto;
-    width: 50%;
+    width: 50%;*/
 }
 
 footer ul {
