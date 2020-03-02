@@ -51,7 +51,12 @@ body {
 
 footer ul {
     font-family:var(--basicFamilyfont);
-    padding: 0px;
+    padding: 2%;
     list-style: none;
     font-weight: bold;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 10%; 
 }
