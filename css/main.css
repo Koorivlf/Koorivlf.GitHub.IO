@@ -37,6 +37,17 @@
    	font-family: var(--basicFamilyfont);	
 }
 
+p {
+	letter-spacing: .02em;
+	line-height: 2em;
+	/*padding-left: var(--thepaddingspace-500);*/
+	color: var(--koorTextColor);
+	text-shadow: .02em .02em var(--shadowColor);
+	font-size: .8em;
+	position: relative;
+   	font-family: var(--basicFamilyfont);
+}
+
 .clickIconList {
 	display: inline-block;
  	/*width: 33.33%;*/
