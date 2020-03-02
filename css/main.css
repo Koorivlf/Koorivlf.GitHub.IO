@@ -28,6 +28,8 @@
 	 max-width:16em;
 	height: auto;
 	width: auto;
+	padding-right: 50%;
+	padding-left: 50%
 	 /*vertical-align: middle;*/
  	 border:4em solid var(--bgColor);
 }
