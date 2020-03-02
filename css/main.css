@@ -20,7 +20,7 @@
 
 
 body {
-	margin: 500em;
+	/*margin: 500em;*/
     	/*width: 90%;*/
     	background-color: var(--bgColor);
     	family-font: "Lucida Sans Unicode", "Lucida Grande", 'sans-serif';
