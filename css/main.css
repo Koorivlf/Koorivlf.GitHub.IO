@@ -17,7 +17,7 @@
 	/*float: center;*/
         /*margin:auto;*/
   	/*width: 10%;*/
-	top: 50%;
+	padding-top: 16em;
 }
 
 .clickIconList {
@@ -43,7 +43,9 @@ body {
     	background-color: var(--bgColor);
     	family-font: var(--basicFamilyfont);
 	width: 40%;
-	margin:auto;
+	/*margin:auto;*/
+	margin-left: 25%;
+	margin-right: 25%
 }
 
 img {
