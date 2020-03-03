@@ -90,8 +90,8 @@ body {
 	width: 80%;
 	max-width: var(--maxWidth); 
 	/*margin:auto;*/
-	margin-left: 10%;
-	margin-right: 10%
+	margin-left: 15%;
+	margin-right: 15%
 }
 
 img {
