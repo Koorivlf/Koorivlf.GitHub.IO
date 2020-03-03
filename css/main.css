@@ -91,7 +91,7 @@ body {
 	width: 80%;
 	max-width: var(--maxWidth); 
 	/*margin:auto;*/
-	margin-left: 15%;
+	margin-left: 20%;
 	margin-right: 15%
 }
 
@@ -134,6 +134,7 @@ footer ul {
 	font-weight: bold;
 	color: var(--koorTextColor);
 	text-shadow: .08em .08em var(--shadowColor);
+	text-align: center;
 }
 
 footer ul li {
