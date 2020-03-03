@@ -73,7 +73,7 @@ body {
     	background-color: var(--bgColor);
     	font-family: var(--basicFamilyfont);
 	width: 80%;
-	max-width: 56.250 em; /* 1000 px */
+	max-width: 56.250 em; /* 900 px */
 	/*margin:auto;*/
 	margin-left: 25%;
 	margin-right: 25%
