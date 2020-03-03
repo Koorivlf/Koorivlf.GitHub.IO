@@ -13,7 +13,6 @@
 	position: relative;
 	margin: 0 auto;
 	padding-left:var(--thepaddingspace);
-	max-width: 62.500 em; /* 1000 px */
 }
 
 .centerImg {
@@ -74,6 +73,7 @@ body {
     	background-color: var(--bgColor);
     	font-family: var(--basicFamilyfont);
 	width: 80%;
+	max-width: 62.500 em; /* 1000 px */
 	/*margin:auto;*/
 	margin-left: 25%;
 	margin-right: 25%
