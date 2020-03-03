@@ -7,19 +7,20 @@
     	--koorTextColor: #fcf9eb;
 	--shadowColor: #a82400;
 	--textBorderMargin: .69em;
+	--maxWidth: 62.500em; /*1000 px*/
 }
 
 .centerTextBlock {
 	position: relative;
 	margin: 0 auto;
-	max-width: 56.250em; /*900 px*/
+	max-width: var(--maxWidth); 
 }
 
 .centerblock {
 	position: relative;
 	margin: 0 auto;
-	padding-left:var(--thepaddingspace);
-	max-width: 56.250em; /*900 px*/
+	/*padding-left:var(--thepaddingspace);*/
+	max-width: var(--maxWidth); 
 }
 
 .centerImg {
@@ -30,7 +31,7 @@
         margin: 0 auto;
   	/*width: 10%;*/
 	padding-top: 6em;
-	max-width: 56.250em; /*900 px*/
+	max-width: var(--maxWidth); 
 	/*padding-left: var(--thepaddingspace);*/
 }
 
@@ -81,7 +82,7 @@ body {
     	background-color: var(--bgColor);
     	font-family: var(--basicFamilyfont);
 	width: 80%;
-	max-width: 56.250 em; /* 900 px */
+	max-width: var(--maxWidth); 
 	/*margin:auto;*/
 	margin-left: 25%;
 	margin-right: 25%
@@ -121,7 +122,7 @@ a:active {
 footer ul {
 	font-family:var(--basicFamilyfont);
 	margin-top: 2em;
-	padding-left: var(--thepaddingspace);
+	/*padding-left: var(--thepaddingspace);*/
 	list-style: none;
 	font-weight: bold;
 	color: var(--koorTextColor);
