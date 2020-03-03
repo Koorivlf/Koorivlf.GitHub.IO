@@ -23,6 +23,12 @@
 	max-width: var(--maxWidth); 
 }
 
+h2 {
+	position: relative;
+	margin: 0 auto;
+	max-width: var(--maxWidth); 
+}
+
 .centerImg {
     	display:block;
 	/*margin-left: auto;
@@ -84,8 +90,8 @@ body {
 	width: 80%;
 	max-width: var(--maxWidth); 
 	/*margin:auto;*/
-	margin-left: 4%;
-	margin-right: 4%
+	margin-left: 10%;
+	margin-right: 10%
 }
 
 img {
@@ -132,4 +138,5 @@ footer ul {
 footer ul li {
 	display: inline;
 	margin-right: .5%;
+	text-align: center;
 }
