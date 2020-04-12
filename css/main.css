@@ -7,38 +7,33 @@
     	--koorTextColor: #fcf9eb;
 	--shadowColor: #a82400;
 	--textBorderMargin: .69em;
-	--maxWidth: 62.500em; /*1000 px*/
+	--maxWidth: 1000px; /*1000 px*/
 }
 
 .centerTextBlock {
-	position: relative;
-	margin: 0 auto;
+	margin: auto;
 	max-width: var(--maxWidth); 
 }
 
 .centerblock {
-	position: relative;
-	margin: 0 auto;
-	/*padding-left:var(--thepaddingspace);*/
+	margin: auto;
 	max-width: var(--maxWidth); 
 }
 
 h2 {
-	position: relative;
-	margin: 0 auto;
+	margin: auto;
 	max-width: var(--maxWidth);
 }
 
+a {
+	text-decoration: none;
+}
+
 .centerImg {
-    	display:block;
-	/*margin-left: auto;
-  	margin-right: auto;*/
-	/*float: center;*/
-        margin: 0 auto;
-  	/*width: 10%;*/
+   	display:block;
+    margin: auto;
 	padding-top: 6em;
 	max-width: var(--maxWidth); 
-	/*padding-left: var(--thepaddingspace);*/
 }
 
 .koorText {
@@ -78,21 +73,12 @@ p {
  	border:.2em solid var(--borderColor);
 }
 
-a.hover {
-
-}
-
-
 body {
-	/*margin: 500em;*/
-    	/*width: 90%;*/
-    	background-color: var(--bgColor);
-    	font-family: var(--basicFamilyfont);
+	background-color: var(--bgColor);
+	font-family: var(--basicFamilyfont);
 	width: 80%;
 	max-width: var(--maxWidth); 
-	/*margin:auto;*/
-	margin-left: 20%;
-	margin-right: 15%
+	margin:auto;
 }
 
 img {
