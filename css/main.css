@@ -13,12 +13,12 @@
 .centerTextBlock {
    	display:block;
 	margin: auto;
-	max-width: var(--maxWidth); 
+	max-width: var(--maxWidth);
 }
 
 .centerblock {
 	margin: auto;
-	max-width: var(--maxWidth); 
+	max-width: var(--maxWidth);
 }
 
 h2 {
@@ -77,9 +77,9 @@ p {
  	/*padding: 25%*/
 	max-height:16em;
 	max-width:16em;
-	margin-right: var(--textBorderMargin); 
-	margin-bottom: var(--textBorderMargin); 
-	margin-left: var(--textBorderMargin); 
+	margin-right: var(--textBorderMargin);
+	margin-bottom: var(--textBorderMargin);
+	margin-left: var(--textBorderMargin);
 	border-radius: .5em;
 	/*vertical-align: middle;*/
  	border:.2em solid var(--borderColor);
@@ -89,7 +89,7 @@ body {
 	background-color: var(--bgColor);
 	font-family: var(--basicFamilyfont);
 	width: 80%;
-	max-width: var(--maxWidth); 
+	max-width: var(--maxWidth);
 	margin:auto;
 }
 
@@ -121,7 +121,7 @@ a:visited {
 a:active {
 	color: var(--bgColor);
   	text-decoration: border-bottom;
-} 
+}
 
 
 footer ul {
