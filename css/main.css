@@ -7,7 +7,7 @@
     	--koorTextColor: #fcf9eb;
 	--shadowColor: #a82400;
 	--textBorderMargin: .69em;
-	--maxWidth: 1000px; /*1000 px*/
+	--maxWidth: 50em; /*1000 px*/
 }
 
 .centerTextBlock {
@@ -45,16 +45,15 @@ a {
    	display:block;
     margin: auto;
 	padding-top: 6em;
-	max-width: var(--maxWidth); 
+	max-width: var(--maxWidth);
 }
 
 .koorText {
-	letter-spacing: 1.3em;
-	line-height: 4em;
+	letter-spacing: 0.05em;
 	/*padding-left: var(--thepaddingspace-500);*/
 	color: var(--koorTextColor);
 	text-shadow: .08em .08em var(--shadowColor);
-	font-size: 2.69em;
+	font-size: 7em;
 	position: relative;
    	font-family: var(--basicFamilyfont);
 	text-align: center;
