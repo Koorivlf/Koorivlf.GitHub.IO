@@ -1,24 +1,25 @@
 :root{
 	--bgColor: #ffa500;
-    	--textColor: black;
+	--textColor: black;
 	--borderColor: #fcf9eb;
 	--basicFamilyfont:"Lucida Sans Unicode", "Lucida Grande", 'sans-serif';
 	--thepaddingspace: 10%;
-    	--koorTextColor: #fcf9eb;
+	--koorTextColor: #fcf9eb;
 	--shadowColor: #a82400;
 	--textBorderMargin: .69em;
 	--maxWidth: 50em; /*1000 px*/
 }
 
 .centerTextBlock {
-   	display:block;
+   	display: block;
 	margin: auto;
 	max-width: var(--maxWidth);
 }
 
-.centerblock {
+.centerBlock {
 	margin: auto;
 	max-width: var(--maxWidth);
+	font-family: initial;
 }
 
 h2 {
@@ -26,9 +27,8 @@ h2 {
 	margin-bottom: 0em;
 	max-width: var(--maxWidth);
 }
-
 h3 {
-	font-family:var(--basicFamilyfont);
+	/*font-family: "Lucida Sans Unicode", "Lucida Grande", 'sans-serif';*/
 	/*padding-left: var(--thepaddingspace);*/
 	list-style: none;
 	font-weight: bold;
@@ -36,9 +36,21 @@ h3 {
 	text-shadow: .08em .08em var(--shadowColor);
 	text-align: center;
 }
-
+canvas {
+	position: absolute;
+	z-index: -1;
+}
 a {
 	text-decoration: none;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 .centerImg {
@@ -55,7 +67,7 @@ a {
 	text-shadow: .08em .08em var(--shadowColor);
 	font-size: 7em;
 	position: relative;
-   	font-family: var(--basicFamilyfont);
+   	font-family: "Lucida Sans Unicode", "Lucida Grande", 'sans-serif';
 	text-align: center;
 }
 
@@ -67,7 +79,7 @@ p {
 	text-shadow: .2em .2em var(--shadowColor);
 	font-size: .8em;
 	position: relative;
-   	font-family: var(--basicFamilyfont);
+   	/*font-family: var(--basicFamilyfont);*/
 }
 
 .clickIconList {
@@ -86,9 +98,6 @@ p {
 
 body {
 	background-color: var(--bgColor);
-	font-family: var(--basicFamilyfont);
-	width: 80%;
-	max-width: var(--maxWidth);
 	margin:auto;
 }
 
@@ -138,4 +147,16 @@ footer ul li {
 	display: inline;
 	margin-right: .5%;
 	text-align: center;
+}
+#particles-js{
+	width: 100%;
+	height: 100%;
+	background-color: var(--bgColor);
+	background-image: url('');
+	background-size: cover;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+}
+.content {
+	z-index: 2;
 }
