@@ -35,14 +35,14 @@ h3 {
 	color: var(--koorTextColor);
 	text-shadow: .08em .08em var(--shadowColor);
 	text-align: center;
+	font-size: 1.69em;
+
 }
 canvas {
 	position: absolute;
 	z-index: -1;
 }
-a {
-	text-decoration: none;
-}
+
 
 .unselectable {
     -webkit-touch-callout: none;
@@ -57,12 +57,13 @@ a {
    	display:block;
     margin: auto;
 	padding-top: 6em;
+	padding-bottom: 2.4em;
 	max-width: var(--maxWidth);
 }
 
 .koorText {
+	line-height: .80;
 	letter-spacing: 0.05em;
-	/*padding-left: var(--thepaddingspace-500);*/
 	color: var(--koorTextColor);
 	text-shadow: .08em .08em var(--shadowColor);
 	font-size: 7em;
@@ -113,6 +114,15 @@ img {
 	text-decoration: italic;
 }
 
+a {
+	text-decoration: none;
+}
+
+.a-logo{
+	height: 128px;
+	display: block;
+}
+
 /* visited link */
 a:visited {
   color: green;
@@ -134,8 +144,8 @@ a:active {
 
 footer ul {
 	font-family:var(--basicFamilyfont);
-	margin-top: 2em;
-	/*padding-left: var(--thepaddingspace);*/
+	/*margin-top: 2em;
+	padding-left: var(--thepaddingspace);*/
 	list-style: none;
 	font-weight: bold;
 	color: var(--koorTextColor);
@@ -160,3 +170,20 @@ footer ul li {
 .content {
 	z-index: 2;
 }
+
+.flex-img-logo {
+	border-radius: .5em;
+	border:.2em solid var(--borderColor);
+}
+
+.flex-logobox {
+	display: flex;
+	flex-wrap: wrap;
+	flex-basis: 0;
+	justify-content: space-around;
+}
+.flex-item {
+ padding-bottom: 24px;
+}
+
+
