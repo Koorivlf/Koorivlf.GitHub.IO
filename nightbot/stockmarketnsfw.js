@@ -1,5 +1,5 @@
 stockNames = [`NSFW`,`MAW`,`PAW`,`BEANS`,`FLUFF`,`FLOOF`,`TAIL`,`PP`,`HORN`,`YOU`,`Your personal stock friend`,`VIDGAM`,`WEREWULF`,`WATER`,`DIGI`,`PLANTI`,`PURE`];
-wordChanges = [`slightly`,`very`,`kinda`,`somewhat`,`...in a vauge way...`,`largely`,`sort of`];
+wordChanges = [`slightly`,`very much`,`kinda`,`somewhat`,`...in a vauge way...`,`largely`,`sort of`];
 size = [`LARGE!`,`greatly, making you big and round!`,`beyond compare!`,`ˢᵐᵒˡ`,`normally?`,`normally.`,`to an undefinded amount.`,`very purely!`,`very impurely`,`...can't connect to network. Another bot beat you to the servers. Please ask again later`,
         `like it normally would under captialism`,`LIKE IT WOULD IN SOCIALISM???`,`in an NFT sort of way...`, `in a doge coin sort of way...`,`deinflated-ly!`, `inflated-ly!`];
 whyCapBad = [`Under Capitalism, you can never have a future where people don't need to work useless jobs. Thus, the majority of people can never relax. Why do we put up with such an terrible economy when other types of economies exist and work?`,
